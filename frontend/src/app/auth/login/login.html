@@ -10,7 +10,7 @@
                     #emailRef="ngModel" />
             </label>
             <div *ngIf="emailRef.invalid && (emailRef.dirty || emailRef.touched)" class="error">
-                <div *ngIf="emailRef.errors?.['required']">Email is required bro type it.</div>
+                <div *ngIf="emailRef.errors?.['required']">Email is required bro type email.</div>
                 <div *ngIf="emailRef.errors?.['email']">Enter a valid email address.</div>
             </div>
 
